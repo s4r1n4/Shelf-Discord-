@@ -25,19 +25,32 @@ A public, open-access Discord bot for organizing and sharing study materials in 
 
 ### Adding StudyShelfBot to Your Server
 
-1. Invite the bot to your server using the following [link](#).
+1. Invite the bot to your server using the following [link](https://discord.com/oauth2/authorize?client_id=1013788293197996132&permissions=274877958208&integration_type=0&scope=bot).
 2. Grant the necessary permissions for the bot to function correctly.
 
 ### Commands Overview
 
-- `!upload <subject> <file/link>`  
+- `/add <subject> <file/link>`  
   Upload study materials to the specified subject (`math` or `cs`).
 
-- `!browse <subject>`  
+- `/collection <subject>`  
   Browse materials in the selected subject.
 
-- `!search <keyword>`  
+- `/search <keyword>`  
   Search for materials by keyword across all shelves.
+
+- `/delete` 
+  Removes a previously uploaded study material from the shelf.
+
+- `/update`
+  Allows you to update the details or file of a previously uploaded material.
+
+- `/uploads`
+  Lists all the study materials you've uploaded to the bot.
+
+- `/suggestions` 
+  Send feedback or suggestions to help improve the bot.
+
 
 ---
 
@@ -78,4 +91,4 @@ All content uploaded to StudyShelfBot is public and accessible by all users. Ple
 
 ## Contact
 
-For questions, issues, or suggestions, please open an issue in this repository or contact the maintainer at [email@example.com](mailto:email@example.com).
+For questions, issues, or suggestions, please open an issue in this repository or contact the maintainer at sareena1029@gmail.com.
